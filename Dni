@@ -4,7 +4,6 @@ class Program {
     static void Main(string[] args) {
 Console.Write("Введите номер: ");
 int dayNum = Convert.ToInt32(Console.ReadLine());
-
 string dayName;
 switch (dayNum)
 {
@@ -33,9 +32,6 @@ default:
 dayName = "Ошибка";
 break;
 }
-
 Console.WriteLine(dayName);
-
-Console.ReadLine();
     }
 }
